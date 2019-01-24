@@ -1,6 +1,6 @@
 <?
 file_put_contents("master.zip", 
-    file_get_contents("https://github.com/developandplay/chat/archive/test.zip")
+    file_get_contents("https://github.com/developandplay/chat/archive/master.zip")
 );
 $zip = new ZipArchive;
 $res = $zip->open("master.zip");
